@@ -1,0 +1,612 @@
+<html>
+<body style="background-color:powderblue;">
+<script language="javascript" type="text/javascript">
+var ch,a;
+ch=parseInt(prompt("Enter bus number", ' '))
+switch(ch)
+	{
+		case(10):document.write("<h1>swargate<br>To<br>Keshavnagar</h1>")
+		break;
+		case(100):document.write("<h1>MaNaPa(pmc)<br>To<br>Infosys Phase 3 Gawarwadi</h1>")
+		break;
+		case(101):document.write("<h1>Somaji khat karkahna<br>To<br>kothrud depot</h1>")
+		break;
+		case(102):document.write("<h1>kothrud depot<br>To<br>lohagaon</h1>")
+		break;
+		case(103):document.write("<h1>kothrud depot<br>To<br>katraj bus stand</h1>")
+		break;
+		case(104):document.write("<h1>Dhayarigoan<br>To<br>Deccan Gymkhana</h1>")
+		break;
+		case(105):document.write("<h1>Deccan Gymkhana<br>To<br>Medipoint</h1>")
+		break;
+		case(106):document.write("<h1>Galinde Path<br>To<br>Galinde Path</h1>")
+		break;
+		case(107):document.write("<h1>Deccan Gymkhana<br>To<br>Pimple Gurav</h1>")
+		break;
+		case(108):document.write("<h1>Sutardara<br>To<br>Pune station</h1>")
+		break;
+		case(109):document.write("<h1>MaNaPa(pmc)<br>To<br>MaNaPa(pmc)</h1>")
+		break;
+		case(11):document.write("<h1>Pimple Gurav<br>To<br>Marketyard</h1>")
+		break;
+		case(110):document.write("<h1>MaNaPa(pmc)<br>To<br>MaNaPa(pmc)</h1>")
+		break;
+		case(111):document.write("<h1>MaNaPa(pmc)<br>To<br>Bhekarai Nagar</h1>")
+		break;
+		case(112):document.write("<h1>Eklavya Polytechnic college<br>To<br>Swargate</h1>")
+		break;
+		case(113):document.write("<h1>A.B.Chawk stand<br>To<br>Vasant dada putala</h1>")
+			  document.write("<h1>and<br>To<br>A.B.chawk stand<br>To<br>Pimple Gurav2</h1>")
+			  document.write("<h1>and<br>To<br>MaNaPa<br>To<br>Pimple Gurav</h1>")
+		break;
+	       /*case(113):document.write("<h1>A.B.chawk stand<br>To<br>Pimple Gurav2</h1>")
+		break;       */
+		case(114):document.write("<h1>MaNaPa<br>To<br>Mahalunge gaon</h1>")
+			  document.write("<h1>and<br>To<br>Hadapsar gadital<br>To<br>mahalunge Gaon</h1>")
+			  document.write("<h1>and<br>To<br>Hadapsar gadital<br>To<br>Moze Vidyalaya</h1>")
+		break;
+		case(115):document.write("<h1>Pune St.<br>To<br>Hinjewadi maan phase 3</h1>")
+		break;
+		case(116):document.write("<h1>MaNaPa<br>To<br>Khadai bajar</h1>")
+		break;
+		case(117):document.write("<h1>Swargate<br>To<br>DSK vishwa</h1>")
+		break;
+		case(118):document.write("<h1>Swargate<br>To<br>Wadgaon budruk</h1>")
+			  document.write("<h1>and<br>To<br>Sun city<br>To<br>Swargate</h1>")
+		break;
+		case(119):document.write("<h1>MaNaPa<br>To<br>Alandi bus stand</h1>")
+			  document.write("<h1>and<br>To<br>Alandi Bus Stand<br>To<br>Vishrantwadi</h1>")
+		break;
+	       //	case(11):document.write("<h1>Katraj<br>To<br>Pimple Gurav</h1>")
+		//break;
+		case(12):document.write("<h1>Rajiv Gandhi Nager Upper Depot<br>To<br>Nigdi</h1>")
+		break;
+		case(120):document.write("<h1>MaNaPa<br>To<br>Bajaj Mahalunge</h1>")
+		break;
+		case(121):document.write("<h1>MaNaPa<br>To<br>Bhosari Gaon</h1>")
+		break;
+		case(122):document.write("<h1>MaNaPa<br>To<br>Chinchwad Gaon</h1>")
+		break;
+		case(123):document.write("<h1>MaNaPa<br>To<br>Bhakti ShakiDepot</h1>")
+			  document.write("<h1>and<br>To<br>MaNaPa<br>To<br>Akurdi Rly St.</h1>")
+		break;
+		case(124):document.write("<h1>Kalubai Mandir<br>To<br>Hadapsar Gaon</h1>")
+		break;
+		case(125):document.write("<h1>Vasantdata putla<br>To<br>Vishrantvadi</h1>")
+		break;
+		case(126):document.write("<h1>mhaske wasti<br>To<br>Pimple Nilakh</h1>")
+		break;
+		case(128):document.write("<h1>MaNaPa<br>To<br>Parade Ground</h1>")
+		break;
+		case(129):document.write("<h1>Pune St. Depot<br>To<br>Medi Point</h1>")
+		break;
+		case(13):document.write("<h1>Shivaji Nager St.<br>To<br>Khandoba Mandir</h1>")
+		break;
+		case(130):document.write("<h1>Jilha Parishad school Yewlewadi<br>To<br>Shivaji Nager</h1>")
+		break;
+		case(131):document.write("<h1>Wadgaon shinde<br>To<br>Pune St.</h1>")
+		break;
+		case(132):document.write("<h1>MaNaPa<br>To<br>Shubham Society</h1>")
+			  document.write("<h1>and<br>To<br>MaNaPa<br>To<br>Wadgaonsheri</h1>")
+		break;
+		case(133):document.write("<h1>MaNaPa<br>To<br>Sainath Nager mundhawa</h1>")
+		break;
+		case(134):document.write("<h1>Collector kacheri<br>To<br>VidhyaNager swapnaganga banglow</h1>")
+		break;
+		case(135):document.write("<h1>Wade Bolhai<br>To<br>MaNaPa</h1>")
+		break;
+		case(136):document.write("<h1>Wade bolhai<br>To<br>pune st.</h1>")
+		break;
+		case(139):document.write("<h1>Nigadi jakat Naka<br>To<br>Hadapsar Gaon</h1>")
+			  document.write("<h1>Bhakti Shakti Depot<br>To<br>Hadapsar Gaon</h1>")
+		break;
+	      //	case(13):document.write("<h1>Shivajinagar<br>To<br>Bibwewadi</h1>")
+		//break;
+		case(14):document.write("<h1>Dhayreshwar mandir<br>To<br>Kesanand Phata</h1>")
+		break;
+		case(140):document.write("<h1>Rajiv Gandhi nagar<br>To<br>pune st.</h1>")
+		break;
+		case(141):document.write("<h1>pune st.<br>To<br>Khandoba mandir</h1>")
+		break;
+		case(142):document.write("<h1>punr st.<br>To<br>Ghotawade Phata</h1>")
+		break;
+		case(143):document.write("<h1>pune st.<br>To<br>warje Jakat naka</h1>")
+		break;
+		case(144):document.write("<h1>Kothrud Stand<br>To<br>pune st.</h1>")
+			  document.write("<h1>andsai sayaji nagar<br>To<br><br>To<br>pune st.</h1>")
+			  document.write("<h1>and<br>To<br>kumbhare park pune st.<br>To<br>mundhawa</h1>")
+			  document.write("<h1>and<br>To<br>Gujrat colony<br>To<br>pune st.</h1>")
+		break;
+		case(145):document.write("<h1>pune st<br>To<br>D2 Circle and sutarwadi</h1>")
+		break;
+		case(146):document.write("<h1>Police line Gokhale nagar<br>To<br>pune st.</h1>")
+		break;
+		case(147):document.write("<h1>MaNaPa<br>To<br>Nhavi Sandas</h1>")
+		break;
+		case(148):document.write("<h1>Hadapsar Gadital<br>To<br>Pimple gurav</h1>")
+			  document.write("<h1>and<br>To<br>Bosari Gaon<br>To<br>Bhekrainagar</h1>")
+		break;
+		case(149):document.write("<h1>Pimpri Chawk Bus Stand<br>To<br>Bhakti Shakti Depot</h1>")
+		break;
+		case(151):document.write("<h1>Alandi Busstand<br>To<br>Pune st.</h1>")
+		break;
+		case(152):document.write("<h1>MaNaPa<br>To<br>Dhayrigaon</h1>")
+		break;
+		case(153):document.write("<h1>Pune St.<br>To<br>Parade Ground</h1>")
+		break;
+		case(154):document.write("<h1>VishrantWadi<br>To<br>pune st.</h1>")
+		break;
+		case(155):document.write("<h1>Pune St.<br>To<br>Dhanori gaon</h1>")
+		break;
+		case(157):document.write("<h1>Lohagoan<br>To<br>swargate</h1>")
+		break;
+		case(158):document.write("<h1>MaNaPa<br>To<br>Lohagaon</h1>")
+		break;
+		case(159):document.write("<h1>MaNaPa<br>To<br>Talegaon Dhamdhere<br>To<br>Pabal Phata</h1>")
+		break;
+		case(16):document.write("<h1>Upper Depot<br>To<br>pune st.</h1>")
+		break;
+		case(160):document.write("<h1>MaNaPa<br>To<br>Mundhawa gaon</h1>")
+		break;
+		case(161):document.write("<h1>Deccan Gymkhana<br>To<br>Ganga puram mhada</h1>")
+		break;
+		case(162):document.write("<h1>MaNaPa<br>To<br>Kharadi gaon</h1>")
+		break;
+		case(163):document.write("<h1>Pune st.<br>To<br>Kharadi gaon</h1>")
+		break;
+		case(164):document.write("<h1>M.G.stand<br>To<br>Gangapuram madha</h1>")
+		break;
+		case(165):document.write("<h1>MaNaPa<br>To<br>Wadagaon shari</h1>")
+		break;
+		case(166):document.write("<h1>pune st.<br>To<br>Gangapuram madha</h1>")
+		break;
+		case(167):document.write("<h1>Hadapsar gaon<br>To<br>Kesnand Phata</h1>")
+		break;
+		case(168):document.write("<h1>Keshavnagar<br>To<br>MaNaPa</h1>")
+		break;
+		case(169):document.write("<h1>MaNaPa<br>To<br>Keshavnagar</h1>")
+		break;
+		case(17):document.write("<h1>Surya Hospital<br>To<br>Narhe Ambegaon</h1>")
+		break;
+		case(170):document.write("<h1>pune st.<br>To<br>Kondhawa Gate</h1>")
+		break;
+		case(174):document.write("<h1>Pune st. depot<br>To<br>Kondhwa gate</h1>")
+		break;
+		case(175):document.write("<h1>Hadapasr Gadital<br>To<br>/MaNaPa</h1>")
+		break;
+		case(176):document.write("<h1>Mhammad wadi<br>To<br>Swargate</h1>")
+		break;
+		case(177):document.write("<h1>pnue st.<br>To<br>Azad Nagar</h1>")
+		break;
+		case(179):document.write("<h1>M.G.stand<br>To<br>Wadachi Wadi</h1>")
+		break;
+		case(18):document.write("<h1>Swargate<br>To<br>Wadgaon Budruk</h1>")
+		break;
+		case(180):document.write("<h1>Bhekarainagar<br>To<br>Na.Ta.Wadi</h1>")
+		break;
+		case(181):document.write("<h1>Na.Ta.Wadi<br>To<br>Kondhawa</h1>")
+		break;
+		case(183):document.write("<h1>Hadapsar<br>To<br>Theur</h1>")
+		break;
+		case(184):document.write("<h1>Swrgate<br>To<br>phursungi</h1>")
+		break;
+		case(185):document.write("<h1>Hadapsar<br>To<br>Manjari </h1>")
+		break;
+		case(186):document.write("<h1>Pune st.<br>To<br>Satav nagar</h1>")
+		break;
+		case(187):document.write("<h1>pune st.<br>To<br>Bhekarainagar</h1>")
+		break;
+		case(188):document.write("<h1>Katraj<br>To<br>Hadapsar</h1>")
+		break;
+		case(189):document.write("<h1>Hadapsar<br>To<br>Uruli Devachi</h1>")
+		break;
+		case(19):document.write("<h1>Jilha Paerishad yewalewadi<br>To<br>Shivaji Nagar</h1>")
+		break;
+		case(190):document.write("<h1>Hadapsar<br>To<br>Phursungi</h1>")
+		break;
+		case(191):document.write("<h1>Kondhawa Hospital<br>To<br>Pune st.</h1>")
+		break;
+		case(192):document.write("<h1>Hadapsar<br>To<br>Undri gaon</h1>")
+		break;
+		case(193):document.write("<h1>Hadapsar<br>To<br>Uruli </h1>")
+		break;
+		case(195):document.write("<h1>Hadapsar<br>To<br>HolkarWadi</h1>")
+		break;
+		case(196):document.write("<h1>Swargate<br>To<br>KaleBorate nagar</h1>")
+		break;
+		case(197):document.write("<h1>Hadapsar<br>To<br>Kothaarud</h1>")
+		break;
+		case(198):document.write("<h1>Hadapsar<br>To<br>Manjeri Budruk</h1>")
+		break;
+		case(2):document.write("<h1>Shivajinagar<br>To<br>Katraj Bus stand</h1>")
+		break;
+		case(20):document.write("<h1>Sahakar Nagar<br>To<br>Pune st.</h1>")
+		break;
+		case(200):document.write("<h1>swargate<br>To<br>Sade Satra Nali</h1>")
+		break;
+		case(201):document.write("<h1>Bhekarai nagar<br>To<br>Alandi</h1>")
+		break;
+		case(202):document.write("<h1>Hadapsar<br>To<br>Ganpati Matha</h1>")
+		break;
+		case(203):document.write("<h1>Hadapsar<br>To<br>Pune st.</h1>")
+		break;
+		case(204):document.write("<h1>Bhekarainagar<br>To<br>Chinchwad Gaon</h1>")
+		break;
+		case(205):document.write("<h1>Hadapsar<br>To<br>Sangavi</h1>")
+		break;
+		case(206):document.write("<h1>Hadapasr<br>To<br>Vishalnagar</h1>")
+		break;
+		case(207):document.write("<h1>Swargate<br>To<br>Saswad Stand</h1>")
+		break;
+		case(208):document.write("<h1>Hadapsar<br>To<br>Infosys Phase 3 Gawarwadi</h1>")
+		break;
+		case(21):document.write("<h1>Swargate<br>To<br>Sangavi Gaon</h1>")
+		break;
+		case(213):document.write("<h1>Katraj<br>To<br>Gangapuram MHADA</h1>")
+		break;
+		case(214):document.write("<h1>Katraj<br>To<br>Chintamani Dnyanpith</h1>")
+		break;
+		case(215):document.write("<h1>Ganesh Chauk<br>To<br>Saras Bag</h1>")
+		break;
+		case(216):document.write("<h1>Ambrgaon<br>To<br>Surya Hospital</h1>")
+		break;
+		case(217):document.write("<h1>Jambhul Wadi<br>To<br>Gujaratwadi</h1>")
+		break;
+		case(218):document.write("<h1>Katraj Bus Stand<br>To<br>Bharat English School</h1>")
+		break;
+		case(22):document.write("<h1>Swrgate<br>To<br>Sukhsagar Nagar</h1>")
+		break;
+		case(225):document.write("<h1>Swargate<br>To<br>Wakad Chauk</h1>")
+		break;
+		case(226):document.write("<h1>Dhayreshwar Mandir<br>To<br>Pune st.</h1>")
+		break;
+		case(227):document.write("<h1>Marne Wadi<br>To<br>MarketYard</h1>")
+		break;
+		case(23):document.write("<h1>Pune st.<br>To<br>Upper Depot</h1>")
+		break;
+		case(230):document.write("<h1>PICT Bharti Vidhyapeeth<br>To<br>Pune st.</h1>")
+		break;
+		case(233):document.write("<h1>MarketYard<br>To<br>PaudGaon</h1>")
+		break;
+		case(234):document.write("<h1>MaNaPa(PMC)<br>To<br>Kharadi Gaon</h1>")
+		break;
+		case(235):document.write("<h1>Katraj<br>To<br>Kharadi Gaon</h1>")
+		break;
+		case(236):document.write("<h1>MaNaPa<br>To<br>Khule wadi</h1>")
+		break;
+		case(237):document.write("<h1>Ganpati Matha<br>To<br>Kharadi gaon</h1>")
+		break;
+		case(24):document.write("<h1>Katraj<br>To<br>MHB Yerwada</h1>")
+		break;
+		case(25):document.write("<h1>Pune University<br>To<br>Upper depot</h1>")
+		break;
+		case(252):document.write("<h1>MaNaPa<br>To<br>Charholi Gaon</h1>")
+		break;
+		case(253):document.write("<h1>MaNaPa<br>To<br>Vidyanagar Swapanaganga Banglow</h1>")
+		break;
+		case(256):document.write("<h1>MaNaPa<br>To<br>Moze Vidyalaya</h1>")
+		break;
+		case(257):document.write("<h1>MaNaPa<br>To<br>Markal Gaon</h1>")
+		break;
+		case(26):document.write("<h1>MaNaPa<br>To<br>BahulGaon</h1>")
+		break;
+		case(262):document.write("<h1>MaNaPa<br>To<br>DehuGaon</h1>")
+		break;
+		case(264):document.write("<h1>MaNaPa<br>To<br>BahulGaon</h1>")
+		break;
+		case(27):document.write("<h1>PICT Bharti vidyapeeth<br>To<br>Shivajinagar</h1>")
+		break;
+		case(276):document.write("<h1>Ganpati Matha<br>To<br>Chinchwad Gaon</h1>")
+		break;
+		case(277):document.write("<h1>Kondhwa Gate<br>To<br>Khadki Bazar</h1>")
+		break;
+		case(278):document.write("<h1>Kothrud Depot<br>To<br>Katraj Bus Stand</h1>")
+		break;
+		case(279):document.write("<h1>Deccan Gymkhana<br>To<br>Khamboli</h1>")
+		break;
+		case(28):document.write("<h1>PICT Bharti Vidyapeeth<br>To<br>Pune University</h1>")
+		break;
+		case(280):document.write("<h1>warje Hanuman Chowk<br>To<br>MaNaPa</h1>")
+		break;
+		case(281):document.write("<h1><br>To<br></h1>")
+		break;
+		case(282):document.write("<h1>Ganpati Matha<br>To<br>Bhosri gaon</h1>")
+		break;
+		case(283):document.write("<h1>Kumbare park<br>To<br>Pune St.</h1>")
+		break;
+		case(284):document.write("<h1>Kothrud Depot<br>To<br>Bhakti Shakti Depot</h1>")
+		break;
+		case(286):document.write("<h1>Kothrud Depot<br>To<br>Azad Nagar</h1>")
+		break;
+		case(29):document.write("<h1>VishrantWadi<br>To<br>Swargate</h1>")
+		break;
+		case(290):document.write("<h1>Shaninagar<br>To<br>Shivaji Nagar</h1>")
+		break;
+		case(291):document.write("<h1>Hadapsar<br>To<br>Katraj</h1>")
+		break;
+		case(292):document.write("<h1>Kondhanpur Gaon<br>To<br>Swargate</h1>")
+		break;
+		case(294):document.write("<h1>Katraj<br>To<br>Khadakwasla Dharan</h1>")
+		break;
+		/*case(294):document.write("<h1>katraj<br>To<br>Kusgaon</h1>")
+		break;   */
+		case(295):document.write("<h1>Ambegaon<br>To<br>Pune St.</h1>")
+		break;
+		case(296):document.write("<h1>Jambhulwadi<br>To<br>Shivaji Nagar</h1>")
+		break;
+		case(297):document.write("<h1>Rajas Society<br>To<br>Shivaji Nagar</h1>")
+		break;
+		case(298):document.write("<h1>Katraj Bus Stand<br>To<br>Chinchwad</h1>")
+		break;
+		case(299):document.write("<h1>Katraj<br>To<br>Bhosri Gaon</h1>")
+		break;
+		case(3):document.write("<h1>Pune st.<br>To<br>Swargate</h1>")
+		break;
+		case(30):document.write("<h1>Marrketyard<br>To<br>Ghotawade phata</h1>")
+		break;
+		case(301):document.write("<h1>Katraj<br>To<br>Shewalwadi</h1>")
+		break;
+		case(302):document.write("<h1>Pimprigaon<br>To<br>PCMT Chauk</h1>")
+		break;
+		case(303):document.write("<h1>Nigadi<br>To<br>Akurdi Ral St.</h1>")
+		break;
+		case(304):document.write("<h1>Pcmt chauk<br>To<br>Chinchwad Gaon</h1>")
+		break;
+		case(305):document.write("<h1>Nigadi<br>To<br>Wadgaon</h1>")
+		break;
+		case(306):document.write("<h1>Dange Chauk<br>To<br>Hinjewadi Maan Phase 3</h1>")
+		break;
+		case(307):document.write("<h1>Chinchwad gaon<br>To<br>Walhekarwadi</h1>")
+		break;
+		case(308):document.write("<h1>Bhakti Shakti<br>To<br>Gharkul Vasahat Chikhli</h1>")
+		break;
+		case(309):document.write("<h1>Dehugaon<br>To<br>Alandi Bus Stand</h1>")
+		break;
+		case(31):document.write("<h1>Padmavati Bus stand<br>To<br>Pune st.</h1>")
+		break;
+		case(310):document.write("<h1>Pimprigaon<br>To<br>Vikasnagar</h1>")
+		break;
+		case(311):document.write("<h1>Pune st.<br>To<br>Pimprigaon</h1>")
+		break;
+		case(312):document.write("<h1>chinchwad gaon<br>To<br>Pune st.</h1>")
+		break;
+		case(313):document.write("<h1>Chinchwad gaon<br>To<br>Chandkhed</h1>")
+		break;
+		case(314):document.write("<h1>Bhakti Shakti Depot<br>To<br>Insurance Company</h1>")
+		break;
+		case(315):document.write("<h1>Bhosari Gaon<br>To<br>Pune st.</h1>")
+		break;
+		case(316):document.write("<h1>chinchwad gaon<br>To<br>Hinjewadi phase 3</h1>")
+		break;
+		case(317):document.write("<h1>Pune st.<br>To<br>Sambhaji Nagar</h1>")
+		break;
+		case(318):document.write("<h1>Pune st.<br>To<br>Krushnanagar</h1>")
+		break;
+		case(319):document.write("<h1>Vasantdada Putala<br>To<br>shirgaon</h1>")
+		break;
+		case(32):document.write("<h1>Shivajinagar<br>To<br>Ramchandranagar</h1>")
+		break;
+		case(320):document.write("<h1>Alandi Bus Stand<br>To<br>Mhalunge Gaon</h1>")
+		break;
+		case(321):document.write("<h1>Vasantdada putala<br>To<br>Hinjewadi</h1>")
+		break;
+		case(322):document.write("<h1>Akurdi Rly St.<br>To<br>Pune st.</h1>")
+		break;
+		case(323):document.write("<h1>Chikhali<br>To<br>MaNaPa</h1>")
+		break;
+		case(324):document.write("<h1>Bhosari gaon<br>To<br>Hinjewadi phase 3</h1>")
+		break;
+		case(325):document.write("<h1>Masulkar colony<br>To<br>Pune st.</h1>")
+		break;
+		case(326):document.write("<h1>Pimprigaon<br>To<br>Chikhali</h1>")
+		break;
+		case(327):document.write("<h1>Hijewadi phase 3<br>To<br>Alandi Bus stand</h1>")
+		break;
+		case(328):document.write("<h1>Rupinagar<br>To<br>Nigadi</h1>")
+		break;
+		case(329):document.write("<h1>Pune St.<br>To<br>Dehugaon</h1>")
+		break;
+		case(33):document.write("<h1>Na.Ta.Wadi<br>To<br>Padmavati Bus Stand</h1>")
+		break;
+		case(330):document.write("<h1>Sadhu nagar<br>To<br>Pune st.depot</h1>")
+		break;
+		case(331):document.write("<h1>charholigaon<br>To<br>pune st.</h1>")
+		break;
+		case(332):document.write("<h1>Pune st.<br>To<br>Pimpri MaNaPa</h1>")
+		break;
+		case(333):document.write("<h1>Pimpari chauk Bus Stand<br>To<br>Pune st.</h1>")
+		break;
+		case(334):document.write("<h1>Pimprigaon<br>To<br>Chikhali</h1>")
+		break;
+		case(335):document.write("<h1>Jambhe<br>To<br>Chinchwadgaon</h1>")
+		break;
+		case(336):document.write("<h1>Bhakti Shakti Depot<br>To<br></h1>")
+		break;
+		case(337):document.write("<h1>Pimpale Saudagar<br>To<br>Pune st.</h1>")
+		break;
+		case(338):document.write("<h1>Kothrud depot<br>To<br>Chinchwad gaon</h1>")
+		break;
+		case(339):document.write("<h1>Katraj<br>To<br>Santnagar chauk taware colony</h1>")
+		break;
+		case(341):document.write("<h1>Mohan nagar<br>To<br>MaNaPa</h1>")
+		break;
+		case(344):document.write("<h1>Pimple Nilakh<br>To<br>Alandi Bus Stop</h1>")
+		break;
+		case(345):document.write("<h1>Pune st.<br>To<br>Thergaon phata</h1>")
+		break;
+		case(347):document.write("<h1>Dapodi gaon<br>To<br>Alandi bus stand</h1>")
+		break;
+		case(348):document.write("<h1>Bhakti Shakti Depot<br>To<br>Pune st.</h1>")
+		break;
+		case(350):document.write("<h1>nigadi<br>To<br>dehugaon</h1>")
+		break;
+		case(351):document.write("<h1>Alandi<br>To<br>Jambhe</h1>")
+		break;
+		case(354):document.write("<h1>Marketyard<br>To<br>Pimprigaon</h1>")
+		break;
+		case(355):document.write("<h1>Chikhali<br>To<br>Dange chauk</h1>")
+		break;
+		case(357):document.write("<h1>Rajgurunagar Khed<br>To<br>Pune St.</h1>")
+		break;
+		case(358):document.write("<h1>Bhosri Gaon<br>To<br>Rajgurunagar</h1>")
+		break;
+		case(36):document.write("<h1>MaNaPa<br>To<br>Chinchwadgaon</h1>")
+		break;
+		case(360):document.write("<h1>Alandi Bus Stand<br>To<br>Balewadi</h1>")
+		break;
+		case(361):document.write("<h1>Alandi Bus stand<br>To<br>Bhosari gaon</h1>")
+		break;
+		case(362):document.write("<h1>Alandi<br>To<br>Ycm Hospital</h1>")
+		break;
+		case(363):document.write("<h1>Nigadi<br>To<br>Adarshnagar</h1>")
+		break;
+		case(366):document.write("<h1>Bhakti Shakti<br>To<br>Pune st.</h1>")
+		break;
+		case(367):document.write("<h1>Nigadi<br>To<br>PCMT chauk</h1>")
+		break;
+		case(368):document.write("<h1>Alandi<br>To<br>Phulgaon Phata</h1>")
+		break;
+		case(37):document.write("<h1>Na.Ta.Wadi<br>To<br>Sahakarnagar</h1>")
+		break;
+		case(371):document.write("<h1>Pimpari chauk<br>To<br>Pimpari chauk</h1>")
+		break;
+		case(370):document.write("<h1>Pimpari chauk bus stop<br>To<br>Pimpari Chauck bus stand</h1>")
+		break;
+		case(372):document.write("<h1>Hinjewadi<br>To<br>Bhakti Shakti</h1>")
+		break;
+		case(373):document.write("<h1>Wakad Chauk<br>To<br>Henjewadi</h1>")
+		break;
+		case(376):document.write("<h1>Bhakti shakti<br>To<br>Katraj</h1>")
+		break;
+		case(38):document.write("<h1>Na.Ta.wadi<br>To<br>Dhankawadi</h1>")
+		break;
+		case(39):document.write("<h1>Dhankawadi<br>To<br>Pune st.</h1>")
+		break;
+		case(40):document.write("<h1>Mandai<br>To<br>Bhim jyoti society</h1>")
+		break;
+		case(41):document.write("<h1>MarketYard<br>To<br>Dapodi</h1>")
+		break;
+		case(42):document.write("<h1>Marketyard<br>To<br>Katraj</h1>")
+		break;
+		case(43):document.write("<h1>Katraj<br>To<br>Bhakti Shakti</h1>")
+		break;
+		case(46):document.write("<h1>lohagaon<br>To<br>Swargate</h1>")
+		break;
+		case(47):document.write("<h1>Shaniwar Wada<br>To<br>Sanaswadi Nandoshi</h1>")
+		break;
+		case(48):document.write("<h1>Pune st.<br>To<br>Venutai College</h1>")
+		break;
+		case(49):document.write("<h1>Khanapur<br>To<br>Pune st.</h1>")
+		break;
+		case(5):document.write("<h1>Pune st.<br>To<br>Swargate</h1>")
+		break;
+		case(50):document.write("<h1>Shanivar wada<br>To<br>Sinhagad Paytha</h1>")
+		break;
+		case(51):document.write("<h1>dhayri gaon<br>To<br>Shivaji nagar st.</h1>")
+		break;
+		case(52):document.write("<h1>Khanapur<br>To<br>Swargate</h1>")
+		break;
+		case(53):document.write("<h1>Shivajinagar st.<br>To<br>DSK vishwa</h1>")
+		break;
+		case(54):document.write("<h1>Na.Ta.wadi<br>To<br>Venutai college</h1>")
+		break;
+		case(55):document.write("<h1>Mandai<br>To<br>sun city</h1>")
+		break;
+		case(56):document.write("<h1>Wadgaon budruk<br>To<br>Mandai</h1>")
+		break;
+		case(57):document.write("<h1>Pune st.<br>To<br>wadgaon budruk</h1>")
+		break;
+		case(58):document.write("<h1>Gokhalenagar<br>To<br>shanipar</h1>")
+		break;
+		case(59):document.write("<h1>Padmavati<br>To<br>Shanipar</h1>")
+		break;
+		case(6):document.write("<h1>Wadgaon sher<br>To<br>Swargate</h1>")
+		break;
+		case(60):document.write("<h1>swargate<br>To<br>Pune university</h1>")
+		break;
+		case(61):document.write("<h1>Katraj<br>To<br>Nasarapur</h1>")
+		break;
+		case(62):document.write("<h1>Sukhsagar Nagar<br>To<br>Sangamwadi gaon</h1>")
+		break;
+		case(63):document.write("<h1>Kalyani Nagar<br>To<br>Swargate</h1>")
+		break;
+		case(64):document.write("<h1>Hadapsar<br>To<br>Ganpati Matha</h1>")
+		break;
+		case(65):document.write("<h1>Upper depot<br>To<br>MHB yerawada</h1>")
+		break;
+		case(66):document.write("<h1>Marketyard<br>To<br>Agalambe gaon</h1>")
+		break;
+		case(67):document.write("<h1>Kharadi gaon<br>To<br>Swargate</h1>")
+		break;
+		case(68):document.write("<h1>Swargate<br>To<br>Kothrud depot</h1>")
+		break;
+		case(69):document.write("<h1>Laxmi narayan theature<br>To<br>Marketyard</h1>")
+		break;
+		case(7):document.write("<h1>Urali Kanchan<br>To<br>Saras Bag</h1>")
+		break;
+		case(70):document.write("<h1>Ghotawade gaon<br>To<br>paund gaon</h1>")
+		break;
+		case(71):document.write("<h1>Deccan gymkhana<br>To<br>Kothrud depot</h1>")
+		break;
+		case(72):document.write("<h1>sukhasagar<br>To<br>kondhawa</h1>")
+		break;
+		case(73):document.write("<h1>Hadapsar<br>To<br>Kothrud</h1>")
+		break;
+		case(75):document.write("<h1>Upper depot<br>To<br>vidyanagar</h1>")
+		break;
+		case(76):document.write("<h1>deccan<br>To<br>Kumbare park</h1>")
+		break;
+		case(77):document.write("<h1>Ganpati Matha<br>To<br>Ganpati matha</h1>")
+		break;
+		case(78):document.write("<h1>Paramhance cornar<br>To<br>kondhawa gate</h1>")
+		break;
+		case(79):document.write("<h1>deccan gymkhana<br>To<br>mugawade</h1>")
+		break;
+		case(8):document.write("<h1>Mhatobachi alandi<br>To<br>Hadapsar</h1>")
+		break;
+		case(81):document.write("<h1>MaNaPa<br>To<br>pune st.</h1>")
+		break;
+		case(82):document.write("<h1>Kumbare park<br>To<br>Kondhava gate</h1>")
+		break;
+		case(84):document.write("<h1>deccan gymkhana<br>To<br>sungrun</h1>")
+		break;
+		case(85):document.write("<h1>MaNaPa<br>To<br>Ahire gaon</h1>")
+		break;
+		case(86):document.write("<h1>Kothrud depot<br>To<br>KOthrud depot</h1>")
+		break;
+		case(87):document.write("<h1>Deccan gymkhana<br>To<br>Mahalunge phata</h1>")
+		break;
+		case(88):document.write("<h1>Medi point<br>To<br>Upper depot</h1>")
+		break;
+		case(89):document.write("<h1>Swargate<br>To<br>Niljoti</h1>")
+		break;
+		case(90):document.write("<h1>Swargate<br>To<br>gokhalenagar</h1>")
+		break;
+		case(91):document.write("<h1>MaNaPa<br>To<br>Ishnya nagari</h1>")
+		break;
+		case(92):document.write("<h1>Gujrat colony<br>To<br>Pune st.</h1>")
+		break;
+		case(93):document.write("<h1>Pimple Nilakh<br>To<br>Deccan gymkhana</h1>")
+		break;
+		case(94):document.write("<h1>Kothrud depot<br>To<br>Pune ststion</h1>")
+		break;
+		case(95):document.write("<h1>Kothrud depot<br>To<br>Pimple gurav</h1>")
+		break;
+		case(96):document.write("<h1>Ganpati matha<br>To<br>pimple gurav</h1>")
+		break;
+		case(97):document.write("<h1>Ganpati matha<br>To<br>Sahakar nagar</h1>")
+		break;
+		case(98):document.write("<h1>Katraj<br>To<br>Infosys phase 3</h1>")
+		break;
+		case(99):document.write("<h1>Swargate<br>To<br>phase 3</h1>")
+		break;
+		default:
+		document.write("<h1>Invalid bus number!!!</h1>")
+		break;
+	}
+document.write("<br><br><br><br><br><br><br><br><br><br><br><br><br><hr>")
+document.write(Date())
+
+</script>
+</body>
+</html>
